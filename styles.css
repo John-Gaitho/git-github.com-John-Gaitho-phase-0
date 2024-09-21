@@ -1,3 +1,48 @@
 body {
-    background-image: url("../assets/img/Screenshot 2024-09-21 115713.png")
+    background-image: url("./assets/img/pexels-tamanna-rumee-52377920-8755018\ \(1\).jpg");
+    background-color: rgb(57, 63, 45);
+    height: 100%;
+    background-size: cover;
+    background-repeat:repeat-y; 
+    background-position:center;
+    padding: 0 5%;
+    position: relative;
+    z-index: 0;
+    color: brown;
+}
+.overlay {
+    background-color: rgba(0, 0, 0,);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+nav {
+    display: flex;
+    height: 80px;
+    justify-content:space-between ;
+    align-items: center;
+    position:relative ;
+    color: azure;
+}
+* {
+    padding: 0;
+    color: rgb(45, 65, 65);
+}
+ul li a:hover {
+    color: chocolate;
+    font-stretch: expanded;
+    scrollbar-color: blue;
+}
+img {
+    height:60vh ;
+    border-radius: 80%;
+    float: right;
+}
+form {
+    border-radius: 50%;
+    color: rgb(112, 20, 211);
+} 
+ul .nav-list {
+    display: flex;
+    color: white;
 }
